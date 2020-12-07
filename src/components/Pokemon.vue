@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
+    <div class="container p-3" >
         <h1 class="text-center">Pokedex</h1>
-        <PokemonList :imageUrl="imageUrl" :apiUrl="apiUrl" @setPokemonUrl="setPokemonUrl"/>
+        <PokemonList :imageUrl="imageUrl" :apiUrl="apiUrl" />
     </div>
 </template>
 <script>
@@ -23,5 +23,6 @@ export default {
 body{
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(226,226,226,1) 51%, rgba(235,235,235,1) 100%);
+  background-repeat: no-repeat;
 }
 </style>
